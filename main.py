@@ -18,6 +18,7 @@ noun2 = "eleven"
 noun3 = "twelve"
 noun4 = "thirteen"
 noun5 = "fourteen"
+noun6 = "fifteen"
 
 # function for deciding a versus an
 
