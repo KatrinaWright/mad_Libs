@@ -103,7 +103,7 @@ def input_mermaid_life():
 ### [plural_noun, plural_noun2, plural_noun3, plural_noun4, plural_noun5, noun1, noun2, noun3, noun4, adjective1, adjective2, adjective3, male_name, occupation, verb, verb2, part_body, part_body2, adverb]
 
 
-input_mermaid_life()
+# input_mermaid_life()
 # Quality check user input 
 
 
