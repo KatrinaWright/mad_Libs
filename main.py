@@ -19,13 +19,15 @@ noun4 = "thirteen"
 noun5 = "fourteen"
 adjective5 = "fifteen"
 adjective6 = "sixteen"
-#adjective7 = "seventeen"
-#adjective8 = "eighteen"
+adjective7 = "seventeen"
+adjective8 = "eighteen"
 plural_noun2 = "nineteen"
 number1 = "twenty"
 number2 = "twenty-one"
 number3 = "twenty-two"
 part_body2 = "twenty-three"
+verb_ing = "twentry-four"
+adverb2 = "twenty-five"
 
 # function for deciding a versus an
 
@@ -55,6 +57,18 @@ Mash them up well and mix with the {part_body2} of a toad and the {noun2} of a s
 Once again, bring to {alan} {adjective6} boil and cook for {number3} minutes. 
 Now you can offer the brew to any unsuspecting {adjective1} princess - they fall for it every time.
 But beware: No matter how strong the {adjective2} potion is, true love will reverse its spell every time!
+"""
+
+princess_how_to = f"""
+It is difficult not to envy a young woman who has everything her {part_body} desires.
+But history shows it isn't easy being a princess.
+You have to maintain {adjective1} standards and abide by {adjective2} rules. For example:
+* A princess should always be kind to, and understanding of, her royal {plural_noun}.
+* A princess knows that {alan} {adjective2} smile is preferable to {alan} {adjective3} frown.
+* A princess should be a patron of the arts, well-versed in classical {noun1}, and {adverb} familar with {adjective4} authors and their {adjective5} works. 
+* A princess should never make {alan} {adjective6} decision. She should always think before {verb_ing}.
+* And when she does speak, she should be articulate and, if possible, very {adjective7}.
+* And, of course, a princess must be prepared to marry {alan} {adjective8} prince and live {adverb2} ever after.
 """
 
 # user inputs strings into containers
