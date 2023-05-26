@@ -20,7 +20,6 @@ noun5 = "fourteen"
 adjective5 = "fifteen"
 adjective6 = "sixteen"
 #adjective7 = "seventeen"
-
 #adjective8 = "eighteen"
 plural_noun2 = "nineteen"
 number1 = "twenty"
@@ -74,6 +73,8 @@ But beware: No matter how strong the {adjective2} potion is, true love will reve
 
 # randomize the story that is given when opening the app
 
+
+# debugging and tests
 print(cinderella_story)
 
 print(witches_stew)
