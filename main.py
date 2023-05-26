@@ -28,6 +28,12 @@ number3 = "twenty-two"
 part_body2 = "twenty-three"
 verb_ing = "twentry-four"
 adverb2 = "twenty-five"
+verb = "twenty-six"
+verb2 = "twenty-seven"
+occupation = "twenty-eight"
+plural_noun3 = "twenty-nine"
+plural_noun4 = "thirty"
+plural_noun5 = "thirty-one"
 
 # function for deciding a versus an
 
@@ -71,6 +77,18 @@ You have to maintain {adjective1} standards and abide by {adjective2} rules. For
 * And, of course, a princess must be prepared to marry {alan} {adjective8} prince and live {adverb2} ever after.
 """
 
+mermaid_life = f"""
+Life under the sea is full of wonder and {plural_noun} --- especially when you're a mermaid and {alan} {adjective1} underwater princess like me!
+I live on the ocean floor in {alan} {adjective2} castle made of coral {plural_noun2}.
+My dad is King {male_name}, ruler of the entire {noun1}.
+My friends are fish, dolphins, and an underwater {noun2}. 
+We spend our days exploring {noun3} reefs and searching for sunken {plural_noun3}.
+Sometimes I wonder what it would be like to {verb} on land. 
+I've heard that people there have {part_body} instead of fins!
+And that thy {verb2} around from place to place in motorized {plural_noun4} and wear {adjective3} {plural_noun5} on their {part_body2}.
+Someday I hope to visit this place so I can meet a handsome {occupation} and fall {adverb} in love. 
+That would be a mermaid's {noun4} come true!
+"""
 # user inputs strings into containers
 
 
@@ -93,6 +111,9 @@ print(cinderella_story)
 
 print(witches_stew)
 
+print(princess_how_to)
+
+print(mermaid_life)
 # ask user if they would like to do another story
 
 
