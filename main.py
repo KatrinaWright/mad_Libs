@@ -1,5 +1,6 @@
 # Creating a mad lib program
-
+# by: Katrina Wright
+# started May 25th, 2023
 
 # Create containers for holding user inputs
 alan = "a/an"
@@ -34,10 +35,6 @@ occupation = "twenty-eight"
 plural_noun3 = "twenty-nine"
 plural_noun4 = "thirty"
 plural_noun5 = "thirty-one"
-
-# function for deciding a versus an
-
-
 
 
 # list storys with input spots
@@ -90,8 +87,23 @@ Someday I hope to visit this place so I can meet a handsome {occupation} and fal
 That would be a mermaid's {noun4} come true!
 """
 # user inputs strings into containers
+## starting with welcome message
+welcome_message = f"""
+Welcome to the Mad Libs program! Let's create a silly story together!
+"""
+print(welcome_message)
+
+## making functions for each story
+def input_mermaid_life():
+    print("let's make a story about mermaids!")
+    adjective1, adjective2, adjective3 = input("Please provide three adjectives: ").split() 
+    return adjective1, adjective2
+
+###Variables needed for mermaid_life
+### [plural_noun, plural_noun2, plural_noun3, plural_noun4, plural_noun5, noun1, noun2, noun3, noun4, adjective1, adjective2, adjective3, male_name, occupation, verb, verb2, part_body, part_body2, adverb]
 
 
+input_mermaid_life()
 # Quality check user input 
 
 
@@ -101,17 +113,19 @@ That would be a mermaid's {noun4} come true!
 
 
 
+# function for deciding a versus an
+
 
 
 # randomize the story that is given when opening the app
 
 
 # debugging and tests
-print(cinderella_story)
+#print(cinderella_story)
 
-print(witches_stew)
+#print(witches_stew)
 
-print(princess_how_to)
+#print(princess_how_to)
 
 print(mermaid_life)
 # ask user if they would like to do another story
